@@ -1,0 +1,197 @@
+* {
+  font-family: 'Tinos', serif;
+  text-align: center;
+  color: white;
+}
+img {
+  max-width: 100%;
+}
+body {
+  background: black
+}
+h1,
+h2,
+p,
+li,
+h3 {
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+a:active {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+ul {
+  padding: 0;
+}
+li {
+  font-size: 15px;
+  list-style: none;
+  font-weight: 600;
+  padding: 13px;
+}
+body {
+  padding: 5%;
+}
+.top {
+  margin: 16px 0;
+}
+.name {
+  font-size: 30px;
+}
+.contact-info {
+  font-weight: 900;
+}
+.phone {
+  color: white;
+}
+.name2 {
+  font-weight: 600;
+}
+.top {
+  font-weight: 600;
+}
+.intro {
+  color: rgb(105,105,105);
+}
+h2 {
+  font-size: 15px;
+  padding-top: 25px;
+  padding-bottom: 28px;
+}
+h3 {
+  font-weight: 600;
+}
+.projects {
+  padding-bottom: 25px;
+}
+.moreinfo {
+  color: rgb(105,105,105);
+}
+.phone {
+  color: rgb(105,105,105);
+}
+.email {
+  color: rgb(105,105,105);
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 700;
+  border-top: solid rgb(180,180,180) 1px;
+  padding-top: 10px;
+}
+#contact {
+  padding-bottom: 45px;
+}
+.links2 {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .links {
+    display: flex;
+    margin: auto;
+    width: 340px;
+    padding-left: 75px;
+    padding-bottom: 30px;
+  }
+  .section1 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 7px;
+    padding-bottom: 20px;
+  }
+  .intro {
+    display: flex;
+    text-align: left;
+    margin-top: 0;
+    padding-left: 8px;
+    padding-right: 20px;
+    width: 59%;
+  }
+  .profile-pic {
+    width: 40%;
+    margin-right: 30px;
+  }
+  .projects {
+    float: left;
+    width: 45%;
+    padding-left: 20px;
+  }
+  .project-text {
+    padding: 0 20px;
+  }
+  #contact {
+    max-width: 65%;
+    margin: auto;
+  }
+  .moreinfo {
+    padding-bottom: 20px;
+  }
+  .top {
+    display: none;
+  }
+  .links2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0px;
+    text-align: left;
+    position: relative;
+    left: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  margin-top: 0;
+  font-size: 25px;
+  padding-left: 7px;
+}
+.links {
+  margin: initial;
+  position: relative;
+  left: 80px;
+}
+.intro {
+  font-size: 22px;
+  padding-left: 0;
+  padding-right: 30px;
+}
+.profile-pic {
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+.links2 {
+  left: 10px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container>* {
+        flex: 1 1 250px;
+    }
+
+
+
+}
