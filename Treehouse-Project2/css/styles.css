@@ -123,12 +123,15 @@ footer {
   }
   .profile-pic {
     width: 40%;
-    margin-right: 30px;
   }
-  .projects {
-    float: left;
-    width: 45%;
-    padding-left: 20px;
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .container>* {
+          flex: 1 1 250px;
   }
   .project-text {
     padding: 0 20px;
